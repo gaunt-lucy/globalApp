@@ -10,5 +10,6 @@ GET     /assets/*file               controllers.Assets.at(path="/public", file)
 
 #LearnPlay example Action
 GET     /hello  controllers.Application.hello(n: String)
+GET     /page controllers.Application.page(n: String)
 
     
